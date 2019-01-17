@@ -90,6 +90,10 @@ git merge upstream/master
 ```bash
 $ git branch -D test
 ```
+1. 이슈 브랜치를 지우는 방법입니다.
+```bash
+$ git push --delete origin iss60
+```
 
 1. Fork한 리포지터리도 업데이트합니다.
 ```bash
